@@ -8,7 +8,7 @@ import (
 	"log"
 )
 
-func getLogger(format string) Logging {
+func GetLogger(format string) Logging {
 	return New(
 	os.Stdout,
 	format,
